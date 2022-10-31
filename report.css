@@ -1,0 +1,82 @@
+.card {
+    background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
+    border-radius: 25px;
+    color:rgb(0, 129, 99);
+    
+}
+.card .card-header .card-title{
+    font-size:1.5rem;
+    font-weight:1000;
+}
+.card .card-body .container-fluid #filter .d-flex .form-group .control-label{
+    font-size: 1rem;
+    font-weight:500;
+   
+}
+.card .card-body .container-fluid #filter .d-flex .form-group  .form-control{
+    border-color:  rgb(89, 222, 229);
+    background:#d4d6ff;
+    border-radius: 15px;
+}
+.card .card-body .container-fluid #filter .d-flex .form-group .btn  {
+    border-color:  rgb(80, 245, 231);
+    background:#e4e5f6;
+    color:blue;
+    border-radius: 15px;
+    
+}
+.card .card-body .container-fluid #filter .d-flex .form-group .btn:hover{
+    background:#761a41;
+    color:rgb(37, 179, 32);
+    
+}
+.card .card-body .container-fluid .table {
+    border: solid rgb(68, 228, 246);
+    
+    
+}
+
+.bg-bady{
+    height:1000px;
+    width: 1000px auto;
+   
+}
+
+.bg-body {
+    animation: scroll 80s linear infinite;
+    background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"), #000000;
+    color: rgb(18, 11, 237);
+    font-weight: 500;
+    height:1000px;
+    width: 1000px auto;
+    height: 100vh;
+    min-width: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    
+  }
+  
+  @keyframes scroll {
+     100%{
+      background-position:0px -3000px;
+    }
+  }
+  
+  @media (prefers-reduced-motion) {
+    .wrapper {
+      animation: scroll 200s linear infinite;
+    }
+  }
+  
+
+
+
+
+
+
+
+
